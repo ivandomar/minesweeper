@@ -27,7 +27,14 @@ class File {
     public function line(int $index = 0): string
     {
         $parts = explode("\n", $this->content);
-        
+
         return $parts[$index];
+    }
+
+    public function lineExists(int $index)
+    {
+        $parts = explode("\n", $this->content);
+
+        return array_key_exists($index, $parts);
     }
 }
