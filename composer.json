@@ -1,0 +1,19 @@
+{
+    "name": "vann/minesweeper",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Minesweeper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Cézanne Seara",
+            "email": "ivancezanne@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3"
+    }
+}
